@@ -6,17 +6,17 @@ const todos = [
     text: "todo",
   },
   {
-    text: "todo2",
+    text: "todo2 asfas",
   },
 ];
 
 const typeDefs = `
-type Todo {
-    text:String
-}
-type Query {
-    todos : [Todo]
-}
+  type Todo {
+    text: String
+  }
+  type Query {
+    todos: [Todo]
+  }
 `;
 const resolvers = {
   Query: {
